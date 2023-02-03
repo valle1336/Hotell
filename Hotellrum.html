@@ -10,7 +10,13 @@
     <title>Hotellrum</title>
 </head>
 <body>
-    <nav class="Meny">
+    <div class="knepp">
+
+        <button class="menyButton" id="menyButton">Meny</button>
+    
+        </div>
+
+    <nav class="Meny" id="Meny-js">
         <a href="index.html">Dag-Ludvig</a> <a href="Hotellrum.html">Hotellrum</a> <a href="Kontakt.html">Konakt</a>
     </nav>
     
@@ -22,25 +28,41 @@
     <h1>Våra Hotellrum!</h1>
     <h2>Här på hotellrums sidan kan du välja ett av våra 4 rum som syns nedan:</h2>
         </section>
+
+        <br><br><br>
         
-        
+        <section class="rum-namn">
+            <div>Luxury</div>
+            <div>Retro</div>
+            <div>Modern</div>
+            <div>Classic</div>
+        </section>
     
     <div class="bilder">
-    <img src="hotell-rum2.jpg" alt="rum2" width="460" height="800">
+    <img src="hotell-rum2.jpg" alt="rum2" class="bild1">
 
-    <img src="rum2.jpg" alt="rum3" width="460" height="800">
+    <img src="rum2.jpg" alt="rum3" class="bild2">
 
-    <img src="rum3.jpg" alt="rum4" width="460" height="800">
+    <img src="rum3.jpg" alt="rum4" class="bild3">
 
-    <img src="rum4.jpg" alt="rum5" width="460" height="800">
+    <img src="rum4.jpg" alt="rum5" class="bild4">
 
     </div>
 
-    <section class="rum-namn">
-        <div>a.</div>
-        <div>b.</div>
-        <div>c.</div>
-        <div>d.</div>
+    <section class="rum-pris">
+        <div>Pris per natt: 890kr</div>
+        <div>Pris per natt: 570kr</div>
+        <div>Pris per natt: 500kr</div>
+        <div>Pris per natt: 380kr</div>
+    </section>
+
+    <br><br>
+
+    <section class="rum-namn2">
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio expedita minima minus blanditiis eligendi quod delectus iure asperiores dolor molestias debitis placeat tempore, neque quae corporis ut voluptates ullam itaque?</div>
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero aut commodi inventore, iure veniam quibusdam nostrum temporibus sequi fugit cupiditate vel quaerat quasi adipisci distinctio, doloribus nesciunt ipsum doloremque ex?</div>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur maiores, error ipsam doloremque repudiandae esse! Corrupti aut ut dolorum officiis illum repellendus ratione saepe quibusdam porro voluptate labore, molestiae fugiat?</div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi iste pariatur voluptatem fuga veniam beatae, fugit cupiditate quam ex illum, quod, corrupti perspiciatis eius exercitationem ipsam blanditiis aliquam repellendus accusamus.</div>
     </section>
 
     <br><br><br><br><br>
@@ -51,10 +73,10 @@
 
     <select name="rum" id="rum" required>
         <option value="">Välj ditt rum...</option>
-        <option value="a.">a.</option>
-        <option value="b.">b.</option>
-        <option value="c.">c.</option>
-        <option value="d.">d.</option>
+        <option value="Luxury">Luxury</option>
+        <option value="Retro">Retro</option>
+        <option value="Modern">Modern</option>
+        <option value="Classic">Classic</option>
 
     </select>
 
@@ -93,5 +115,7 @@
     <br>
 
     <a href="#top" class="top">Back to the top!</a> 
+
+    <script src="hotell.js"></script>
 </body>
 </html>

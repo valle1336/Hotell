@@ -6,6 +6,14 @@ body {
     background-color: #131313;
 }
 
+.sbild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 300px;
+}
+
 .Meny {
     display: flex;
     align-items: center;
@@ -17,7 +25,7 @@ body {
 }
 
 a {
-    font-size: 3em;
+    font-size: 2.3em;
     color: #d45066;
 }
 
@@ -30,7 +38,7 @@ a {
 
 .text-bild h1 {
     position: absolute;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .entre-bild {
@@ -104,7 +112,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 14em;
+        margin-left: 8%;
         float: left;
       }
 
@@ -162,8 +170,8 @@ a {
       .knapp {
         color: #131313;
         background-color: #d45066;
-        font-size: 3em;
-        width: 5em;
+        font-size: 2.5em;
+        width: 4em;
         border-radius: 10px;
 
       }
@@ -180,6 +188,20 @@ a {
 
       .rum-namn {
         font-size: 3em;
+        color: #d45066;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .rum-namn2 {
+        font-size: 120%;
+        color: #d45066;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .rum-pris {
+        font-size: 1.7em;
         color: #d45066;
         display: flex;
         justify-content: space-around;
@@ -238,6 +260,28 @@ a {
       .top {
         color: #d45066;
       }
+
+      .bild1 {
+        width: 23%;
+      }
+      .bild2 {
+        width: 23%;
+    
+      }
+      .bild3 {
+        width: 23%;
+     
+      }
+      .bild4 {
+        width: 23%;
+
+      }
+
+      .adress {
+        font-size: 1.5em;
+      }
+
+
 
 
       
