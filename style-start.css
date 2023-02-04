@@ -138,7 +138,12 @@ a {
         border-style: double;
         border-color: #d45066;
         border-radius: 5px;
-      }    
+        width: 30%;
+      }   
+      
+      .videon {
+        width: 100%;
+      }
       
       .top {
         color: #131313;
